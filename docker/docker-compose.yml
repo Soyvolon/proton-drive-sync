@@ -1,7 +1,7 @@
 services:
   proton-drive-sync:
     build:
-      context: ..
+      context: .
       dockerfile: docker/Dockerfile
     image: ghcr.io/damianb-bitflipper/proton-drive-sync:latest
     container_name: proton-drive-sync
